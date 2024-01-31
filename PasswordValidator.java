@@ -22,14 +22,14 @@ public class PasswordValidator {
             tmp_username = scanner.nextLine();
 
             // Enter password with masking
-            System.out.println("Password: ");
-            char[] passwordChars = System.console().readPassword();
+            char[] passwordChars = System.console().readPassword("Password: ");
 
             // Display asterisks for each character in the password
             System.out.print("Entered password: ");
-            for (char c : passwordChars) {
+            for (int i = 0; i < passwordChars.length; i++) {
                 System.out.print("*");
             }
+            
             System.out.println();  // Move to the next line after displaying asterisks
 
             // Validation below
