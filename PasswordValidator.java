@@ -1,4 +1,7 @@
-
+/**link to github below
+  *
+  * https://github.com/MsFT100/Java-Assignment.git
+**/
 import java.util.Scanner;
 
 public class PasswordValidator {
